@@ -1,0 +1,1 @@
+INSERT INTO testdb2.tutorials_tbl (tutorial_title,tutorial_author, submission_date) VALUES ('codeship_database','heena','25-06-2016') ;

@@ -1,0 +1,1 @@
+SELECT * FROM testdb2.tutorials_tbl
