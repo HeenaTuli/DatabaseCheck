@@ -6,4 +6,7 @@ SELECT DATABASE();
 USE TestCodeship
 SELECT DATABASE();
 show tables;
+mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/createtable.sql;
+mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/insert.sql;
+mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/select.sql;
  
