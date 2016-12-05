@@ -6,5 +6,5 @@ SELECT DATABASE();
 USE TestCodeship
 SELECT DATABASE();
 show tables;
-exit; 
+exit() ; 
 EOF 
