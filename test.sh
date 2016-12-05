@@ -6,7 +6,5 @@ SELECT DATABASE();
 USE TestCodeship
 SELECT DATABASE();
 show tables;
-mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/createtable.sql;
-mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/insert.sql;
-mysql | cat /home/rof/src/github.com/HeenaTuli/DatabaseCheck/select.sql;
- 
+CREATE TABLE testcodeship.tutorials_tbl(tutorial_id INT NOT NULL AUTO_INCREMENT,tutorial_title VARCHAR(100) NOT NULL,tutorial_author VARCHAR(40) NOT NULL,submission_date DATE,PRIMARY KEY ( tutorial_id ));
+SELECT * from tutorials_tb1 ;
