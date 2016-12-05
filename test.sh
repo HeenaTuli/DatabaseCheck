@@ -17,7 +17,7 @@ DIR_SqlFiles="/home/rof/src/github.com/HeenaTuli/DatabaseCheck/"
 echo "`date` :Checking DB connectivity...";
 echo "`date` :Trying to connect "${DB_UserName}"/"${DB_Password}"@"${DB_SID}" ..."
 #echo "exit" | mysql "${DB_UserName}/${DB_Password}@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=${DB_HostName})(PORT=${DB_Port})))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=${DB_SID})))" | grep -q "Connected to:" > /dev/null
-mysql -h testcodeship.c3pmyiqsuzhg.us-east-1.rds.amazonaws.com -P 3306 -u admin -pCodeship ;
+mysql -h testcodeship.c3pmyiqsuzhg.us-east-1.rds.amazonaws.com -P 3306 -u admin -pCodeship < /home/rof/src/github.com/HeenaTuli/DatabaseCheck/*.sql;
 exit(); 
 exit 
 
