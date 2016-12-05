@@ -6,4 +6,4 @@ SELECT DATABASE();
 USE TestCodeship
 SELECT DATABASE();
 show tables;
-EOFMYSQL ; 
+ 
