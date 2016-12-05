@@ -1,1 +1,1 @@
-SELECT * FROM testdb2.tutorials_tbl
+SELECT * FROM TestCodeship.tutorials_tbl
